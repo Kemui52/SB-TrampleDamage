@@ -1,0 +1,9 @@
+{
+  "type" : "gprstagehand",
+
+  "scripts" : [
+  	"/gprstagehand.lua"
+  ],
+  "scriptDelta" : 15
+
+}

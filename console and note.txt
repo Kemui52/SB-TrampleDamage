@@ -1,0 +1,29 @@
+tile damage double? reenable 4size tile on bottom? test
+light? remove bow type?
+
+
+/admin
+/debug
+
+/spawnitem heatprotectionback
+/spawnitem thornsaugment
+
+/spawnitem sprinttech --not a valid item, huh?
+
+/updatetrample
+
+
+/spawnitem npcsizetablet
+
+
+/spawnitem be_bagger288
+/spawnitem be_bagger288_shiny
+
+
+/spawnitem invisiblecape
+/spawnitem invisiblechest
+/spawnitem invisiblehead
+/spawnitem invisiblelegs
+
+/spawnitem handheldgprconsole
+

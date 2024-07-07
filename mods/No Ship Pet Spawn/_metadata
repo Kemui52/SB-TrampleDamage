@@ -1,0 +1,10 @@
+{
+  "version" : "1.0",
+  "link" : "",
+  "friendlyName" : "No Ship Pet on New Character",
+  "requires" : [],
+  "description" : "A quick and dirty edit to prevent the SAIL console from spawning ship pets.",
+  "name" : "removeshippetspawn",
+  "includes" : [],
+  "author" : "Kemui52"
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "handheldgprconsole",
+  "price" : 4000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "Console",
+  "itemTags" : ["tool"],
+  "description" : "A fully featured* handheld GPR Station!\n*Hotkeys not working, please click.",
+  "shortdescription" : "Handheld GPR Station",
+  "tooltipKind" : "base",
+  "twoHanded" : false,
+  "inventoryIcon" : "/items/portablegprconsole/portablegprconsoleicon.png",
+  "animation" : "/items/portablegprconsole/portablegprconsole.animation",
+  
+  "scripts" : ["handheldgprconsole.lua"]
+}

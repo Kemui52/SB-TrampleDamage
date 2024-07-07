@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "throwinggnome", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lassmalleats",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

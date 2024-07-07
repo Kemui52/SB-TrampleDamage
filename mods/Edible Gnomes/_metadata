@@ -1,0 +1,10 @@
+{
+  "version" : "1.0",
+  "link" : "",
+  "friendlyName" : "Edible Gnomes",
+  "requires" : [],
+  "description" : "Adds a recipe to convert a Ball of Gnomes into an edible Handful of Gnomes. Crunch!",
+  "name" : "LetsAddStuff",
+  "includes" : [],
+  "author" : "Kemui52"
+}

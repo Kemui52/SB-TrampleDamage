@@ -1,0 +1,6 @@
+{
+  "frameGrid" : {
+    "size" : [1, 1], //Forcing this invisible since its offset is wrong at different sizes.
+    "dimensions" : [8, 1]
+  }
+}

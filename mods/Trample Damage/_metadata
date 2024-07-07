@@ -1,0 +1,11 @@
+{
+  "version" : "0.7",
+  "tags" : "Miscellaneous|Character Improvements|In-Game Tools|Mechanics",
+  "author" : "Kemui52",
+  "description" : "Requires Size of Life by FelmastProMcLane!!!\n\nGrow into a giant strong enough to carve through mountains and trample anything beneath your feet!",
+  "requires" : [],
+  "name" : "trampledamage",
+  "friendlyName" : "Trample Damage",
+  "link" : "",
+  "includes" : []
+}

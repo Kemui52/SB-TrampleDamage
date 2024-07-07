@@ -1,0 +1,25 @@
+[
+  {
+    "op": "add",
+    "path": "/starttrample",
+    "value": [
+    "/spawnitem npcsizetablet",
+    "/spawnitem invisiblecape",
+    "/spawnitem invisiblechest",
+    "/spawnitem invisiblehead",
+    "/spawnitem invisiblelegs",
+    "/enabletech trampledamage",
+    "/enabletech trampledamageboth99",
+    "/enabletech trampledamage1x"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/updatetrample",
+    "value": [
+    "/enabletech trampledamage",
+    "/enabletech trampledamageboth99",
+    "/enabletech trampledamage1x"
+    ]
+  }
+]

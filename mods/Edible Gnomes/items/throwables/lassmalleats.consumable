@@ -1,0 +1,22 @@
+{
+  "itemName" : "lassmalleats",
+  "rarity" : "Common",
+  "price" : 0,
+  "category" : "food",
+  "inventoryIcon" : "throwinggnome.png",
+  "description" : "Delicious, crunchy morsels.",
+  "shortdescription" : "Handful of Gnomes",
+  "maxStack" : 99,
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "effects" : [ [
+    {
+        "effect" : "lastinyscreams",
+        "duration" : 1
+    }
+  ] ],
+  "learnBlueprintsOnPickup" : [ "lassmalleats" ]
+}
