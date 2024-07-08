@@ -13,7 +13,8 @@
 	"trampleProjectile" : {
 		"one" : "trampleexplosion1fore0",
 		"two" : "trampleexplosion2fore0",
-		"four" : "trampleexplosion4fore0"
+		"four" : "trampleexplosion4fore0",
+		"kill" : "trampleprojectile4x" //The projectile that'll kill living things.
 	},
 	//Don't activate trample damage until enough time has passed or else the ground we stand on breaks.
     "waitForGrowth" : 5.5 //3.5 is 2x scale, 5.5 is 4x scale

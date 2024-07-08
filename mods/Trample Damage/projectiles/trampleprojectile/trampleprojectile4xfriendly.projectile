@@ -1,0 +1,22 @@
+{
+  "projectileName" : "trampleprojectile4xfriendly",
+  "image" : "trampleprojectile.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0.3,
+  "power" : 2000,
+
+  "emitters" : [ ],
+  "damageKind" : "spear",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageType" : "ignoresdef",
+  "damagePoly" : [[-28, -82], [-28, 42], [28, 42], [28, -82]], //4x scale
+  "bounces" : -1,
+  "piercing" : true
+
+//  "scripts" : [
+//Uncomment and fix the comma if you want    "trampleprojectile.lua"
+//to reference this projectile in scripts  ]
+
+
+}

@@ -17,7 +17,14 @@
     "path": "/updatetrample",
     "value": [
     "/enabletech trampledamage",
+    "/enabletech trampledamage99",
+    "/enabletech trampledamageboth",
     "/enabletech trampledamageboth99",
+    "/enabletech trampledamagefriendly",
+    "/enabletech trampledamagefriendly99",
+    "/enabletech trampledamagefriendlyboth",
+    "/enabletech trampledamagefriendlyboth99",
+    "/enabletech trampledamagenodam",
     "/enabletech trampledamage1x"
     ]
   }

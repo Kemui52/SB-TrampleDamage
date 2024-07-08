@@ -1,0 +1,34 @@
+{
+  "projectileName" : "trampleexplosion1fore99", //Don't forget the NAME here!!!
+  "image" : "trampleexplosion.png",
+  "animationCycle" : 0.2,
+  "level" : 3,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "power" : 0,
+  "timeToLive" : 0.3,
+  "fullbright" : true,
+  //The damage poly is just here to represent the explosive radius in debug mode.
+  "damagePoly" : [[-8, 4], [-4, 8], [4, 8], [8, 4], [8, -4], [4, -8], [-4, -8], [-8, -4]],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "physics" : "illusion",
+  "universalDamage" : false,
+  "damageKind" : "default",
+  "damageType" : "NoDamage",
+  "periodicActions" : [
+	    {
+	      "time" : 0.1,
+	      "loop" : false,
+      "action" : "explosion",
+      "foregroundRadius" : 1,	//1
+      "backgroundRadius" : 0,	//fore
+      "harvestLevel" : 99,		//99
+      "explosiveDamageAmount" : 1000,
+      //"tileDamageType" : "explosive",
+      "delaySteps" : 2
+	   }
+  ]
+}

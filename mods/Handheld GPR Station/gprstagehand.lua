@@ -6,7 +6,7 @@ function init()
   GPRrect = {entity.position()[1]-GPRregion, entity.position()[2]-GPRregion, entity.position()[1]+GPRregion, entity.position()[2]+GPRregion}
   
   -- id, position
-  stationInfo = { entity.id(), entity.position() }
+  stationInfo = { -2323 --[[entity.id()--]], entity.position() } --EDIT_HERE
   
   self.senderEntityPosition = entity.position()
 	self.scanMatrix = {}
@@ -22,6 +22,10 @@ function init()
 		[3] = 6, ["poison"] = 6,
 		[11] = 7, ["fuel"] = 7, [5] = 7, ["liquidoil"] = 7
 	}
+
+  if world.getProperty("GPR station") == nil then
+    world.setProperty("GPR station", stationInfo)
+  end --EDIT_HERE moved from update()
 end
 
 function uninit() --EDIT_HERE making sure nil actually gets set, and since it does, make sure this dies
@@ -41,7 +45,7 @@ function update(dt)
   --EDIT_HERE world.loadRegion(GPRrect)
   
   if world.getProperty("GPR station") == nil then
-    world.setProperty("GPR station", stationInfo)
+    uninit() --EDIT_HERE world.setProperty("GPR station", stationInfo)
   end
   
   local instruction = world.getProperty(tostring("GPR station %s instruction", stationInfo[1]))

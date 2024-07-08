@@ -1,8 +1,8 @@
 {
-  "name" : "trampleinvuln1x",
+  "name" : "trampleinvulnnodam",
   "defaultDuration" : 6,
   "effectConfig" : {
-	"base" : 1.0, //The size to grow to.
+	"base" : 4.0, //The size to grow to.
 	"randomness" : 0.0,
 	"mode" : "replace",
 

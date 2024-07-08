@@ -1,24 +1,26 @@
 {
-  "name" : "trampleinvuln1x",
+  "name" : "trampleinvulnboth",
   "defaultDuration" : 6,
   "effectConfig" : {
-	"base" : 1.0, //The size to grow to.
+	"base" : 4.0, //The size to grow to.
 	"randomness" : 0.0,
 	"mode" : "replace",
 
 	//Whether to ignore damage creation.
-	"noDamageLevel" : 2,  //1 disable blocks, 2 disable all damage
+	"noDamageLevel" : 0,  //1 disable blocks, 2 disable all damage
 
 	//The projectile explosions that'll plow through tiles.
 	"trampleProjectile" : {
-		"one" : "trampleexplosion1fore0",
-		"two" : "trampleexplosion2fore0",
-		"four" : "trampleexplosion4fore0",
+		"one" :  "trampleexplosion1both0",
+		"two" :  "trampleexplosion2both0",
+		"four" : "trampleexplosion4both0",
 		"kill" : "trampleprojectile4x" //The projectile that'll kill living things.
 	},
 	//Don't activate trample damage until enough time has passed or else the ground we stand on breaks.
     "waitForGrowth" : 5.5 //3.5 is 2x scale, 5.5 is 4x scale
   },
+  "animationConfig" : "trampleglow4x.animation",
+
   "label" : "Whats a Label invuln",
   "scripts" : [
     "trampleinvuln.lua"

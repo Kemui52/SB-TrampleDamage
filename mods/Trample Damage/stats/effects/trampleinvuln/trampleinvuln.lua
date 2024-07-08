@@ -62,7 +62,7 @@ end
   if self.noDamageLevel < 2
   and (mcontroller.walking() or mcontroller.running() or not mcontroller.onGround())
   and not (world.type() == "unknown") then --disable on ship. (anywhere else use unknown?)
-    world.spawnProjectile("trampleprojectile4x", mcontroller.position(), entity.id(), {0,0}, true)
+    world.spawnProjectile(self.trampleProjectile.kill, mcontroller.position(), entity.id(), {0,0}, true)
 
 	if self.noDamageLevel == 0 then
     world.spawnProjectile(self.trampleProjectile.two, vec2.add(mcontroller.position(),{-1, 4}), entity.id(), {0,0}, true)
@@ -78,7 +78,7 @@ end
     world.spawnProjectile(self.trampleProjectile.two, vec2.add(mcontroller.position(),{ 3.3,-2}), entity.id(), {0,0}, true)
     world.spawnProjectile(self.trampleProjectile.two, vec2.add(mcontroller.position(),{-3.3,-4}), entity.id(), {0,0}, true)
     world.spawnProjectile(self.trampleProjectile.two, vec2.add(mcontroller.position(),{ 3.3,-4}), entity.id(), {0,0}, true)
-    world.spawnProjectile(self.trampleProjectile.four,vec2.add(mcontroller.position(),{ 0,-5}), entity.id(), {0,0}, true)
+    world.spawnProjectile(self.trampleProjectile.four,vec2.add(mcontroller.position(),{ 0,-5.4}), entity.id(), {0,0}, true)
     world.spawnProjectile(self.trampleProjectile.two, vec2.add(mcontroller.position(),{-3.3,-6}), entity.id(), {0,0}, true)
     world.spawnProjectile(self.trampleProjectile.two, vec2.add(mcontroller.position(),{ 3.3,-6}), entity.id(), {0,0}, true)
     world.spawnProjectile(self.trampleProjectile.two, vec2.add(mcontroller.position(),{-3.3,-7.5}), entity.id(), {0,0}, true)

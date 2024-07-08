@@ -206,7 +206,7 @@ function init()
     
     script.setUpdateDelta(60)
   else
-    self.gprconsoleId = player.id() --EDIT_HERE
+    self.gprconsoleId = -2323 --player.id() --EDIT_HERE
     self.gprconsolePos = world.entityPosition(player.id()) --EDIT_HERE
     self.centralEntityPos = self.gprconsolePos
     
@@ -251,6 +251,7 @@ end
 
 function uninit()
   world.setProperty(tostring("GPR station %s scan list", self.centralEntityPos), nil)
+  world.setProperty("GPR station", nil) --EDIT_HERE
   sb.logInfo("GUI uninit")
 end
 

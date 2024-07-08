@@ -1,0 +1,24 @@
+{
+  "name" : "trampledamagenodam",
+  "type" : "legs",
+
+  "scripts" : ["trampledamage.lua"],
+  "animator" : "/tech/jump/rocketjump.animation",
+
+  "shortDescription" : "4x Size (No Damage)",
+  "description" : "No Damage; Breaks No Tiles",
+
+  "trampleEffect" : "trampleinvulnnodam",
+  "movementSettings" : {
+    "liquidFriction" : 30.0, //13.0 default
+    "groundForce" : 80.0, //250.0 default
+    "airJumpProfile" : {
+      "jumpHoldTime" : 0.4 //0.2 default
+    }
+  },
+
+  "rarity" : "Legendary",
+  "icon" : "/tech/rocketjump.png",
+  "chipCost" : 0,
+  "multiJumpCount" : 99
+}
