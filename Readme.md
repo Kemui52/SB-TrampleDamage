@@ -10,7 +10,7 @@ Feel free to browse the code and make your own stuff with it if you like.
 
 Just drop your desired mods into your mods folder inside the Starbound installation.
 
-Some mods **require** another mod. Please read the [Mod Descriptions](https://github.com/Kemui52/SB-TrampleDamage?tab=readme-ov-file#mod-descriptions) below so you know what you need.
+Some mods ***require*** another mod. Please read the [Mod Descriptions](https://github.com/Kemui52/SB-TrampleDamage?tab=readme-ov-file#mod-descriptions) below so you know what you need.
 
 ### Uninstallation
 

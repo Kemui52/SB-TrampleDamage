@@ -26,7 +26,7 @@
       "foregroundRadius" : 4,	//4
       "backgroundRadius" : 4,	//both
       "harvestLevel" : 99,		//99
-      "explosiveDamageAmount" : 200,
+      "explosiveDamageAmount" : 1000,
       //"tileDamageType" : "explosive",
       "delaySteps" : 2
 	   }

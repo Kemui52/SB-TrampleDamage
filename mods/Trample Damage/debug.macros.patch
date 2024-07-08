@@ -4,13 +4,12 @@
     "path": "/starttrample",
     "value": [
     "/spawnitem npcsizetablet",
+    "/spawnitem handheldgprconsole",
     "/spawnitem invisiblecape",
     "/spawnitem invisiblechest",
     "/spawnitem invisiblehead",
     "/spawnitem invisiblelegs",
-    "/enabletech trampledamage",
-    "/enabletech trampledamageboth99",
-    "/enabletech trampledamage1x"
+    "/updatetrample"
     ]
   },
   {

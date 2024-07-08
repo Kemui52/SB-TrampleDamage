@@ -7,7 +7,7 @@
   "power" : 2000,
 
   "emitters" : [ ],
-  "damageKind" : "bow",
+  "damageKind" : "spear",
   //"damageTeam" : { "type" : "indiscriminate" },
   "damageType" : "ignoresdef",
   "damagePoly" : [[-28, -82], [-28, 42], [28, 42], [28, -82]], //4x scale
