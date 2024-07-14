@@ -19,6 +19,8 @@
 	//Don't activate trample damage until enough time has passed or else the ground we stand on breaks.
     "waitForGrowth" : 5.5 //3.5 is 2x scale, 5.5 is 4x scale
   },
+  "animationConfig" : "trampleglow4x.animation",
+
   "label" : "Whats a Label invuln",
   "scripts" : [
     "trampleinvuln.lua"

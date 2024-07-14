@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "category" : "Console",
   "itemTags" : ["tool"],
-  "description" : "A fully featured* handheld GPR Station!\n*Hotkeys not working, please click.",
+  "description" : "A fully featured* handheld GPR Station!\n*Hotkeys not working.",
   "shortdescription" : "Handheld GPR Station",
   "tooltipKind" : "base",
   "twoHanded" : false,

@@ -1,6 +1,4 @@
-tile damage TYPE? reenable 4size tile on bottom? test
 light?
-remove bow type? test
 
 
 /admin
