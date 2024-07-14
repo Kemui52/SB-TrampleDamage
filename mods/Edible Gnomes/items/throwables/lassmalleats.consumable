@@ -18,5 +18,5 @@
         "duration" : 1
     }
   ] ],
-  "learnBlueprintsOnPickup" : [ "lassmalleats" ]
+  "learnBlueprintsOnPickup" : [ "lassmalleats_inverse" ]
 }
