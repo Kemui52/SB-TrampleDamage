@@ -34,7 +34,7 @@ Make sure to use the 1x size tech before returning to your ship! While I made su
 
 Current features: Immunity to all damage (not yet done hazardous planets), kill creatures and NPCs by walking into them, destroy blocks by walking into them, does NOT destroy blocks you're standing on, increased jump strength and infinite jumps, slower ground acceleration, removed jumping particles since they render wrong when giant.
 
-It is also recommended to have some way to toggle walking, but there is no mod for that. I'm still looking into that...maybe an AutoHotKey script?
+It is also recommended to have some way to toggle walking. I have made an [AutoHotKey script](https://github.com/Kemui52/SB-TrampleDamage/blob/main/RControl2HoldShift.ahk) to keep left-shift held if you press right-control, which suffices rather well.
 
 ## Handheld GPR Station
 

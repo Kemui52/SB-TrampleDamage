@@ -29,6 +29,7 @@ function init()
 end
 
 function uninit() --EDIT_HERE making sure nil actually gets set, and since it does, make sure this dies
+ sb.logInfo("GPR stagehand uninit")
  die()
  stagehand.die()
 end

@@ -217,7 +217,7 @@ function init()
 end
 
 function update(dt)
-sb.logInfo("The world property is: "..tostring(world.getProperty("GPR station")))
+--sb.logInfo("The world property is: "..tostring(world.getProperty("GPR station")))
   if world.getProperty("GPR station") == nil then
 sb.logInfo("I spawned the stagehand")
 	world.spawnStagehand(self.centralEntityPos, "gprstagehand")
