@@ -1,4 +1,4 @@
-make nonharvest yoyo
+
 
 
 /admin
@@ -15,8 +15,8 @@ make nonharvest yoyo
 /spawnitem npcsizetablet
 
 
-/spawnitem be_bagger288
 /spawnitem be_bagger288_shiny
+/spawnitem be_bagger288_shiny_h00
 
 
 /spawnitem invisiblecape

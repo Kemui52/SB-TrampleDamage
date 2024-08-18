@@ -1,0 +1,40 @@
+{
+  "projectileName" : "be_bagger288yoyo_shiny_h00",
+  "image" : "be_bagger288yoyo_shiny.png",
+  "flippable" : true,
+  "orientationLocked" : true,
+  "lightColor" : [0, 0, 0],
+  "actionOnReap" : [ ],
+  "fullbright" : false,
+  "statusEffects" : [ ],
+  "damagePoly" : [[-16, 8], [-8, 16], [8, 16], [16, 8], [16, -8], [8, -16], [-8, -16], [-16, -8]],
+  "movementSettings" : {
+    "collisionPoly" : [[0.3,0],[0.212132,0.212132],[1.83697e-17,0.3],[-0.212132,0.212132],[-0.3,3.67394e-17],[-0.212132,-0.212132],[-5.51091e-17,-0.3],[0.212132,-0.212132]]
+  },
+  "power" : 8.0,
+  "speed" : 0,
+  "renderLayer" : "ForegroundTile+2",
+  "damageKind" : "bow",
+  "physics" : "hover",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 120,
+
+  "periodicActions" : [
+	    {
+	      "time" : 0.01,
+	      "loop" : true,
+			"action" : "config",
+			"file" : "/projectiles/explosions/be_bagger288mining_h00.config",
+	      "inheritDamageFactor" :1.0,
+	      "fuzzAngle" : 0,
+	      "projectileParameters" : { "damageKind" : "bow" }
+	   }
+  ],
+
+  "pickupDistance" : 2,
+  "maxDistance" : 25,
+  "maxYoyoTime" : 15,
+
+  "scripts" : [ "/projectiles/activeitems/yoyo/yoyoprojectile.lua" ]
+}

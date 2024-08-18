@@ -42,11 +42,15 @@ It is also recommended to have some way to toggle walking. I have made an [AutoH
 
 Adds a super portable version of the GPR Console that doesn't require anything to be placed in the current world. This was shockingly difficult to create. Really! I hate you, ``world.loadRegion()``... Anyway, this mod gives you convenient access to a map of any world.
 
-Known issue: This mod will currently spam your log with info since it has not yet been fully tested. It should be fully operational, but I'm still trying to track how certain things work.
-
 Known issue: You cannot use your keyboard to control the radar. You must click the buttons.
 
 Use ``/spawnitem handheldgprconsole`` to obtain it. I guess I can make a recipe for this one eventually since the template already exists...
+
+## Bagger 288: No Harvest Type
+
+- Requires [Bagger 288](https://steamcommunity.com/sharedfiles/filedetails/?id=1391734304) and its dependency [Yoyo Weapons](https://steamcommunity.com/sharedfiles/filedetails/?id=1384150999)
+
+A version of the Bagger yoyo weapon that does not harvest tiles. Just that, really. Use ``/spawnitem be_bagger288_shiny_h00`` to spawn the item.
 
 ## Edible Gnomes
 

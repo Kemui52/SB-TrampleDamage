@@ -1,0 +1,111 @@
+{
+  "itemName" : "be_bagger288_shiny_h00",
+  "price" : 1000,
+  "inventoryIcon" : "icon.png",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "description" : "A massive steel leviathan...
+^cyan;Sprite by Lonewolf239!^reset;",
+  "shortdescription" : "Bagger 288 (Harvest 00)",
+  "largeImage" : "icon.png",
+  "tooltipKind" : "yoyo",
+  "category" : "yoyo",
+  "fireTime" : 0,
+  "twoHanded" : true,
+  "itemTags" : ["weapon","yoyo"],
+  "level" : 8,
+
+  "scripts" : ["/items/active/weapons/yoyos/yoyo.lua"],
+  "animationScripts" : ["/items/active/effects/renderyoyorope.lua"],
+  "animation" : "/items/active/weapons/yoyos/yoyo.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "throw" : ["/sfx/be_bagger288throw.ogg"]
+    }
+  },
+//  "animationParts" : { "yoyoFullbright" : "/projectiles/activeitems/yoyo/be_bagger288yoyo_shiny/be_bagger288yoyo.png" },
+  "animationParts" : { "yoyoFullbright" : "icon.png" },
+
+  "fireOffset" : [0, 0],
+
+  "rope" : {
+    "width" : 2.0,
+    "color" : [64, 64, 64, 255]
+  },
+
+  "counterweights" : [],
+
+  "usesYoyoUpgrades" : true,
+  "usesCounterweightUpgrades" : true,
+
+  "maxLength" : 20.0,
+  "extraLength" : 0,
+
+  "currentStringType" : "",
+  "stringColor" : "?replace;a85636=7b7b7b;e0975c=b6b6b6;ffca8a=e6e6e6",
+
+  "counterWeightType" : "",
+  "counterWeightIcon" : "",
+  "counterWeightName" : "",
+
+  "builder" : "/items/buildscripts/buildyoyo.lua",
+
+  "projectileType" : "be_bagger288yoyo_shiny_h00",
+  "projectileParameters" : {
+    "knockback" : 10,
+    "power" : 7,
+    "damageRepeatTimeout" : 0.7,
+    "yoyoSpeed" : 70,
+    "maxYoyoTime" : 60
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.2,
+      "transition" : "throw",
+      "transitionFunction" : "fire",
+      "armRotation" : 35,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+	  "precatch" : {
+      "duration" : 0.1,
+      "transition" : "catch",
+      "armRotation" : -15,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "catch" : {
+      "duration" : 0.1,
+      "transition" : "idle",
+      "armRotation" : -35,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  }
+}
