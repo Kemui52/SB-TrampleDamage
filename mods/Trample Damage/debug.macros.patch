@@ -3,12 +3,13 @@
     "op": "add",
     "path": "/starttrample",
     "value": [
-    "/spawnitem npcsizetablet",
+    "/spawnitem bodysizeray",
     "/spawnitem handheldgprconsole",
     "/spawnitem invisiblecape",
     "/spawnitem invisiblechest",
     "/spawnitem invisiblehead",
     "/spawnitem invisiblelegs",
+    "/spawnitem be_bagger288_shiny_h00",
     "/updatetrample"
     ]
   },

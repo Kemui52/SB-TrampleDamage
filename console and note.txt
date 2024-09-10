@@ -7,8 +7,6 @@
 /spawnitem heatprotectionback
 /spawnitem thornsaugment
 
-/spawnitem sprinttech --not a valid item, huh?
-
 /updatetrample
 
 

@@ -11,13 +11,12 @@ function init()
 	end
 	
 	--This one does not get reset when the effect expires, so it's meant to be used as a base-size
-	if config.getParameter("mode") == "replace" then
+	if config.getParameter("mode") == "replace" then --(Causes incorrect scaling and risks infinite growth glitch)
 		status.setPersistentEffects("bodysize",{{stat = "bodysize", amount = self.scale}})
 	end
  -- end
 
-
-  effect.addStatModifierGroup({
+  effect.addStatModifierGroup({ --Enable various damage immunities. Looks like it's fine to apply at init.
 	{stat = "invulnerable", amount = 1},
 	{stat = "fireStatusImmunity", amount = 1},
 	{stat = "poisonStatusImmunity", amount = 1},
@@ -26,22 +25,29 @@ function init()
 	{stat = "lavaImmunity", amount = 1},
 	{stat = "fallDamageMultiplier", effectiveMultiplier = 0}
   })
-  script.setUpdateDelta(8)
+  script.setUpdateDelta(8) --Supposed to set the update rate, but it seems to happen every frame anyway?
   self.noDamageLevel = config.getParameter("noDamageLevel")
   self.trampleProjectile = config.getParameter("trampleProjectile")
   self.waitForGrowth = config.getParameter("waitForGrowth")
+  self.waitForGrowthInit = self.waitForGrowth
 end
 
 function update(dt)
   if effect.duration() < 5 then
-	effect.modifyDuration(5)
+	effect.modifyDuration(5) --Make effect permanent.
   end
 
   if self.waitForGrowth > 0 then
 	self.waitForGrowth = self.waitForGrowth - dt
-	return
+	if self.waitForGrowth < self.waitForGrowthInit - 1.38 then --Time: right after SizeOfLife smooth growth starts happening.
+		effect.setParentDirectives("") --Return scale to normal.
+		self.waitForGrowthInit = -1000 --Disables the directive from being set repeatedly.
+	elseif self.waitForGrowth < self.waitForGrowthInit - 0.266 then --Time: right before SizeOfLife incorrectly applies end scale early.
+		effect.setParentDirectives("scalenearest="..(1/self.scale)..";") --Shrink player to hotfix SizeOfLife applying the end size too soon.
+	end
+	return --Exit code so we don't destroy the blocks we're standing on while growing.
   end
---[[
+--[[ Decided it's better to just let the projectile expire on its own. Keeping track of it manually was causing too many nil errors.
 if self.trampleProjectile == nil then
   self.trampleProjectile = world.spawnProjectile("trampleprojectile", mcontroller.position(), entity.id(), {0,0}, true)
 end
@@ -60,8 +66,8 @@ end
 --sb.logInfo("Projectile exists: "..tostring(world.entityExists(self.trampleProjectile)))
 --]]
   if self.noDamageLevel < 2
-  and (mcontroller.walking() or mcontroller.running() or not mcontroller.onGround())
-  and not (world.type() == "unknown") then --disable on ship. (anywhere else use unknown?)
+  and (mcontroller.walking() or mcontroller.running() or not mcontroller.onGround()) --If moving or in the air.
+  and not (world.type() == "unknown") then --Disable on ship. (anywhere else use unknown?)
     world.spawnProjectile(self.trampleProjectile.kill, mcontroller.position(), entity.id(), {0,0}, true)
 
 	if self.noDamageLevel == 0 then
