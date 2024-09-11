@@ -26,6 +26,9 @@
     "/enabletech trampledamagefriendlyboth",
     "/enabletech trampledamagefriendlyboth99",
     "/enabletech trampledamagenodam",
+    "/enabletech trampledamage2x",
+    "/enabletech trampledamage2xfriendly",
+    "/enabletech trampledamage2xnodam",
     "/enabletech trampledamage1x"
     ]
   }

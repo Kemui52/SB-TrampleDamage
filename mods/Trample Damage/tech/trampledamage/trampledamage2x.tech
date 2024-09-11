@@ -1,0 +1,24 @@
+{
+  "name" : "trampledamage2x",
+  "type" : "legs",
+
+  "scripts" : ["trampledamage.lua"],
+  "animator" : "/tech/jump/rocketjump.animation",
+
+  "shortDescription" : "2x Size",
+  "description" : "Causes Damage; Breaks No Tiles",
+
+  "trampleEffect" : "trampleinvuln2x",
+  "movementSettings" : {
+    "liquidFriction" : 30.0, //13.0 default
+    "groundForce" : 170.0, //250.0 default
+    "airJumpProfile" : {
+      "jumpHoldTime" : 0.3 //0.2 default
+    }
+  },
+
+  "rarity" : "Legendary",
+  "icon" : "/tech/rocketjump.png",
+  "chipCost" : 0,
+  "multiJumpCount" : 99
+}

@@ -6,12 +6,12 @@ function init()
 	self.scale = config.getParameter("list") and config.getParameter("list")[math.random(1,#config.getParameter("list"))] or self.scale
 	
 	--This one only applies while the effect is active, and will revert afterwards
-	if config.getParameter("mode") == "modify" then
+	if config.getParameter("mode") == "modify" then --(Causes incorrect scaling and risks infinite growth glitch)
 		effect.addStatModifierGroup({{stat = "bodysize", effectiveMultiplier = self.scale}})
 	end
 	
 	--This one does not get reset when the effect expires, so it's meant to be used as a base-size
-	if config.getParameter("mode") == "replace" then --(Causes incorrect scaling and risks infinite growth glitch)
+	if config.getParameter("mode") == "replace" then
 		status.setPersistentEffects("bodysize",{{stat = "bodysize", amount = self.scale}})
 	end
  -- end
