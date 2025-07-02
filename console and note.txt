@@ -1,18 +1,43 @@
 
 
-
+Enables godmode and the ability to add techs and items (items appear at cursor).
 /admin
+
+Adds a basic set of size techs and a set of items for giant monster gameplay; a size ray, handheld GPR console, Bagger 288 yo-yo weapon, Drill Spear for space navigation, radiation pack (I should replace this), and invisible clothing from Invisible Clothes Mod.
+/starttrample
+
+/upgradeship '{"shipLevel" : 8}'
+
+Quickly add and complete the quest for the mech, as well as spawn the tables for customizing.
+/gimmemech
+/gimmemechQuest
+/gimmemechItem
+^^^ not tested yet
+
+vvv yes tested
+/startquest '"mechunlock"'
+/completequest mechunlock
+/spawnitem mechassemblystation
+/spawnitem mechcraftingtable
+
+The Drill Spear is great for navigating a zero-gravity environment without a mech.
+/spawnitem drillspear
+
+Temporarily including this because I forgot I was supposed to add this to the giant's properties.
+/spawnitem radiationprotectionback
+
+A few upgrade modules for getting the painting and stuff.
+/spawnitem manipulatormodule 20
+
+
+Shows you various hit detection, including the wacky invisible epxlosions that makes trample damage work.
 /debug
 
-/spawnitem heatprotectionback
-/spawnitem thornsaugment
-
+Gives you ALL size techs for debugging. Very disorganized.
 /updatetrample
 
 
-/spawnitem npcsizetablet
-
-
+Individual spawn commands for mod items.
 /spawnitem be_bagger288_shiny
 /spawnitem be_bagger288_shiny_h00
 
@@ -24,3 +49,5 @@
 
 /spawnitem handheldgprconsole
 
+StarExtensions command to change your character's name.
+/identity set name NAME

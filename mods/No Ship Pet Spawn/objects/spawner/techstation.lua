@@ -40,7 +40,7 @@ end
 function setPet(entityId, params)
   if self.petId == nil or self.petId == entityId then
     self.petId = entityId
-    storage.petParams = params
+    storage.petParams = params or {}
   else
     return false
   end

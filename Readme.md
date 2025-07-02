@@ -28,11 +28,11 @@ For now, make a backup of your storage folder before adding or removing any mods
 
 - Highly Recommends [Stardust Core Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=2512589532) so you can edit your Techs on the fly! If you don't want admin mode on all the time, also add [Quickbar Unlocker](https://steamcommunity.com/sharedfiles/filedetails/?id=1089421344).
 
-Adds a bunch of techs to let you control your size and what kind of damage you want to deal. Not all options are available as of now, but the basics are here. Enable ``/admin`` mode and use the chat command ``/updatetrample`` to add all the techs to your character. There is currently no normal way to add them.
+Adds a bunch of techs to let you control your size and what kind of damage you want to deal. Enable ``/admin`` mode and use the chat command ``/UpdateTrampleLite`` to add a basic set of techs to your character. There is currently no normal way to add them.
 
-Make sure to use the 1x size tech before returning to your ship! While I made sure to disable damage on ship worlds, you may be too big to fit inside your ship.
+Make sure to use the 1x size tech before returning to your ship! While I made sure to disable damage on ship worlds, you will likely be too big to fit inside your ship.
 
-Current features: Immunity to all damage (not yet done hazardous planets), kill creatures and NPCs by walking into them, destroy blocks by walking into them, does NOT destroy blocks you're standing on, increased jump strength and infinite jumps, slower ground acceleration, removed jumping particles since they render wrong when giant.
+Current features: Immunity to all damage (not yet done hazardous planets), kill creatures and NPCs by walking into them, destroy blocks by walking into them, does NOT destroy blocks you're standing on, increased jump strength and infinite jumps, slower ground acceleration, and removed jumping particles since they render wrong when giant.
 
 It is also recommended to have some way to toggle walking. I have made an [AutoHotKey script](https://github.com/Kemui52/SB-TrampleDamage/blob/main/RControl2HoldShift.ahk) to keep left-shift held if you press right-control, which suffices rather well.
 
@@ -56,10 +56,28 @@ A version of the Bagger yoyo weapon that does not harvest tiles. Just that, real
 
 A little mod that lets you craft an edible Handful of Gnomes from a Ball of Gnomes. Tiny screams included!
 
+## Thief Dialog Change
+
+Small patches to change NPC thievery dialog to be about an invading giant monster. Useful if you're stomping through a village and don't like the constant "stop stealing" commentary when that's not what you're doing.
+
+## StarExtensions No Glitch Voice
+
+Removes the text-to-speech data from the Glitch that StarExtensions added. This is so you don't need to turn it off yourself with a console command.
+
 ## No Ship Pet Spawns
 
 Prevents the SAIL from trying to spawn ship pets for new characters. You can use [No Pets](https://steamcommunity.com/sharedfiles/filedetails/?id=733729084) to remove any pre-existing pets a character may have.
 
+# Recommended Mods
+
+[Story Disabler](https://steamcommunity.com/sharedfiles/filedetails/?id=2833909617) to make it quick and easy to make a new character.
+
+[World of Hate](https://steamcommunity.com/sharedfiles/filedetails/?id=1105586595) so every NPC tries to kill you (for being a world-destroying monster).
+
+[Planet Search](https://steamcommunity.com/sharedfiles/filedetails/?id=3269792617) for finding the perfect prey.
+
+[Invisible Clothes Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=735995347) so you can not wear a shirt while you're trampling planets.
+
 # Appreciation
 
-Many thanks to [Bagger 288](https://steamcommunity.com/sharedfiles/filedetails/?id=1391734304) and [Screw Attack](https://steamcommunity.com/sharedfiles/filedetails/?id=750726369) for showing what the game is capable of!
+Many thanks to [Bagger 288](https://steamcommunity.com/sharedfiles/filedetails/?id=1391734304) and [Screw Attack](https://steamcommunity.com/sharedfiles/filedetails/?id=750726369) for showcasing what the game is capable of!

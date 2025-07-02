@@ -10,7 +10,20 @@
     "/spawnitem invisiblehead",
     "/spawnitem invisiblelegs",
     "/spawnitem be_bagger288_shiny_h00",
-    "/updatetrample"
+    "/spawnitem drillspear",
+    "/spawnitem radiationprotectionback",
+    "/updatetramplelite"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/updatetramplelite",
+    "value": [
+    "/enabletech trampledamagefriendlyboth",
+    "/enabletech trampledamagefriendlyboth99",
+    "/enabletech trampledamage2xfriendly",
+    "/enabletech trampledamage2xnodam",
+    "/enabletech trampledamage1x"
     ]
   },
   {
@@ -30,6 +43,30 @@
     "/enabletech trampledamage2xfriendly",
     "/enabletech trampledamage2xnodam",
     "/enabletech trampledamage1x"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/gimmemech",
+    "value": [
+    "/gimmemechQuest",
+    "/gimmemechItem"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/gimmemechQuest",
+    "value": [
+    "/startquest '\"mechunlock\"'",
+    "/completequest mechunlock"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/gimmemechItem",
+    "value": [
+    "/spawnitem mechassemblystation",
+    "/spawnitem mechcraftingtable"
     ]
   }
 ]

@@ -1,0 +1,74 @@
+[
+	{ "op" : "add"
+	,"path" : "/accuse"
+	,"value" : {
+    "default" : {
+      "default" : [
+        "......."
+      ]
+    },
+    "apex" : {
+      "default" : [
+        "What monstrosity is this!?",
+        "Are we to be crushed after all this time?",
+        "This can't be a natural occurance, can it!?",
+        "I'm afraid we are doomed...",
+        "Look at the size of it!"
+      ]
+    },
+    "avian" : {
+      "default" : [
+        "That monster's huge!",
+        "That giant's gonna destroy everything!",
+        "Please don't trample us!",
+        "What did we ever do to you!?",
+        "Is this the calamity!?"
+      ],
+      "avian" : [
+        "That Avian's huge!",
+        "That giant's gonna destroy everything!",
+        "Why would you trample your fellow Avian!?",
+        "What did we ever do to you!?",
+        "Please, stop! I'm an Avian, too, see!?"
+      ]
+    },
+    "floran" : {
+      "default" : [
+        "Thisss may be too big for Floran to fight.",
+        "Why can't Floran grow that big!?",
+        "Ssstop destroying everything!",
+        "Floran hatess huge evil monster!",
+        "Masssive giant... Can Floran survive?",
+        "Floran does not want to be crussshed!"
+      ]
+    },
+    "human" : {
+      "default" : [
+        "Nooo! Why!?",
+        "How can we stop this thing!?",
+        "This is hopeless!",
+        "Whoa, this monster's huge!",
+        "Where'd this thing even come from!?"
+      ]
+    },
+    "hylotl" : {
+      "default" : [
+        "Is there nothing we can do!?",
+        "Our attacks are futile!",
+        "Where did this giant monster come from?",
+        "Truly the most evil of creatures...",
+        "We can't allow ourselves to be trampled by this demon!"
+      ]
+    },
+    "glitch" : {
+      "default" : [
+        "Shocked. A huge monster!",
+        "Panicked. This giant doesn't even flinch!",
+        "Confused. How is this lifeform so gigantic!?",
+        "Desperate. Please, don't crush me!",
+        "Fearful. This beast towers over us!"
+      ]
+    }
+  }
+	}
+]
