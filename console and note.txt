@@ -23,10 +23,7 @@ vvv yes tested
 The Drill Spear is great for navigating a zero-gravity environment without a mech.
 /spawnitem drillspear
 
-Temporarily including this because I forgot I was supposed to add this to the giant's properties.
-/spawnitem radiationprotectionback
-
-A few upgrade modules for getting the painting and stuff.
+A few upgrade modules for painting and stuff.
 /spawnitem manipulatormodule 20
 
 

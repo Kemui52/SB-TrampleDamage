@@ -32,7 +32,7 @@ Adds a bunch of techs to let you control your size and what kind of damage you w
 
 Make sure to use the 1x size tech before returning to your ship! While I made sure to disable damage on ship worlds, you will likely be too big to fit inside your ship.
 
-Current features: Immunity to all damage (not yet done hazardous planets), kill creatures and NPCs by walking into them, destroy blocks by walking into them, does NOT destroy blocks you're standing on, increased jump strength and infinite jumps, slower ground acceleration, and removed jumping particles since they render wrong when giant.
+Current features: Immunity to all damage and biome hazards, kill creatures and NPCs by walking into them, destroy blocks by walking into them, does NOT destroy blocks you're standing on, increased jump strength and infinite jumps, slower ground acceleration, and removed jumping particles since they render wrong when giant.
 
 It is also recommended to have some way to toggle walking. I have made an [AutoHotKey script](https://github.com/Kemui52/SB-TrampleDamage/blob/main/RControl2HoldShift.ahk) to keep left-shift held if you press right-control, which suffices rather well.
 
@@ -58,7 +58,7 @@ A little mod that lets you craft an edible Handful of Gnomes from a Ball of Gnom
 
 ## Thief Dialog Change
 
-Small patches to change NPC thievery dialog to be about an invading giant monster. Useful if you're stomping through a village and don't like the constant "stop stealing" commentary when that's not what you're doing.
+(WIP) Small patches to change NPC thievery dialog to be about an invading giant monster. Useful if you're stomping through a village and don't like the constant "stop stealing" commentary when that's not what you're doing.
 
 ## StarExtensions No Glitch Voice
 

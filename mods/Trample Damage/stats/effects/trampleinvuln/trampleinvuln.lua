@@ -23,6 +23,10 @@ function init()
 	{stat = "electricStatusImmunity", amount = 1},
 	{stat = "iceStatusImmunity", amount = 1},
 	{stat = "lavaImmunity", amount = 1},
+	{stat = "breathProtection", amount = 1},
+	{stat = "biomeradiationImmunity", amount = 1},
+	{stat = "biomecoldImmunity", amount = 1},
+	{stat = "biomeheatImmunity", amount = 1},
 	{stat = "fallDamageMultiplier", effectiveMultiplier = 0}
   })
   script.setUpdateDelta(8) --Supposed to set the update rate, but it seems to happen every frame anyway?
