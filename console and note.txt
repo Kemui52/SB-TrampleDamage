@@ -10,15 +10,6 @@ Adds a basic set of size techs and a set of items for giant monster gameplay; a 
 
 Quickly add and complete the quest for the mech, as well as spawn the tables for customizing.
 /gimmemech
-/gimmemechQuest
-/gimmemechItem
-^^^ not tested yet
-
-vvv yes tested
-/startquest '"mechunlock"'
-/completequest mechunlock
-/spawnitem mechassemblystation
-/spawnitem mechcraftingtable
 
 The Drill Spear is great for navigating a zero-gravity environment without a mech.
 /spawnitem drillspear
