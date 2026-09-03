@@ -13,7 +13,21 @@
         "Are we to be crushed after all this time?",
         "This can't be a natural occurance, can it!?",
         "I'm afraid we are doomed...",
-        "Look at the size of it!"
+        "Look at the size of it!",
+        "The Miniknog will save us! They must!",
+        "Big Ape, save us!",
+        "Can the Miniknog even scratch such a monster?!"
+      ],
+      "apex" : [
+        "A giant Apex!? Why must you attack us?!",
+        "How ironic... Crushed by a giant, rampaging ape!",
+        "What evil science created this titan?!",
+        "I'm afraid we are doomed...",
+        "Look at the size of that Apex!",
+        "The destruction this massive Apex wreaks upon us...!",
+        "The Miniknog will save us! They must!",
+        "This...can't be the Big Ape??",
+        "Can the Miniknog even scratch such a monster?!"
       ]
     },
     "avian" : {
@@ -49,6 +63,14 @@
         "This is hopeless!",
         "Whoa, this monster's huge!",
         "Where'd this thing even come from!?"
+      ],
+      "apex" : [
+        "Is this the \"Big Ape\" they talk about?!",
+        "Nooo! Why!?",
+        "How can we stop this thing!?",
+        "This is hopeless!",
+        "Whoa, this monster's huge!",
+        "Where'd this thing even come from!?"
       ]
     },
     "hylotl" : {
@@ -67,6 +89,14 @@
         "Confused. How is this lifeform so gigantic!?",
         "Desperate. Please, don't crush me!",
         "Fearful. This beast towers over us!"
+      ],
+      "glitch" : [
+        "Shocked. Is that a Glitch siege weapon?!",
+        "Panicked. This giant's armor looks impenetrable!",
+        "Surprised. How is this Glitch so gigantic!?",
+        "Desperate. Please, don't crush me!",
+        "Fearful. This machine towers over us!",
+        "Terrified. A giant machine has gone rogue!"
       ]
     }
   }

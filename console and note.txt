@@ -3,7 +3,7 @@
 Enables godmode and the ability to add techs and items (items appear at cursor).
 /admin
 
-Adds a basic set of size techs and a set of items for giant monster gameplay; a size ray, handheld GPR console, Bagger 288 yo-yo weapon, Drill Spear for space navigation, radiation pack (I should replace this), and invisible clothing from Invisible Clothes Mod.
+Adds a basic set of size techs and a set of items for giant monster gameplay; a size ray, handheld GPR console, Bagger 288 yo-yo weapon, Drill Spear for space navigation, and invisible clothing from Invisible Clothes Mod.
 /starttrample
 
 /upgradeship '{"shipLevel" : 8}'
@@ -18,7 +18,7 @@ A few upgrade modules for painting and stuff.
 /spawnitem manipulatormodule 20
 
 
-Shows you various hit detection, including the wacky invisible epxlosions that makes trample damage work.
+Shows you various hit detection, including the wacky invisible explosions that make trample damage work.
 /debug
 
 Gives you ALL size techs for debugging. Very disorganized.
@@ -39,3 +39,6 @@ Individual spawn commands for mod items.
 
 StarExtensions command to change your character's name.
 /identity set name NAME
+
+And a command to apply a description to your character.
+/description TEXT
