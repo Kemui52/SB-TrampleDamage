@@ -1,0 +1,35 @@
+[
+	{ "op" : "add"
+	,"path" : "/accuse"
+	,"value" : {
+    "default" : {
+      "default" : [
+        "Monster attacking. Surroundings destroyed. Feeling doomed!",
+        "Giant monster. Belongings smashed. Really scared...",
+        "Huge person. Crushing home. Not safe!",
+        "Towering giant. Everything stomped. Help me!",
+        "Under attack. Giant person? Please stop!"
+      ],
+      "fenerox" : [
+        "Fenerox attacking. Really huge? Please stop!",
+        "Giant Fenerox. Home destroyed. Need help!",
+        "Belongings smashed. Large Fenerox? Kinda jealous.",
+        "Huge Fenerox. Crushing everything. Feeling betrayed!",
+        "Massive Fenerox. Everything stomped. Exceedingly confused!"
+      ],
+      "glitch" : [
+        "Giant attacking. Home destroyed. Feeling doomed...",
+        "Giant thing. Belongings smashed. Completely terrified!",
+        "Huge monster. Crushing everything. Need help!",
+        "Towering giant. Everything stomped. World ending!"
+      ],
+      "avian" : [
+        "Monster attacking. Home demolished. Really scared!",
+        "Giant bird. Belongings smashed. Please help!",
+        "Huge bird. Crushing everything. Gonna die?",
+        "Towering giant. Massive talons. World ending!"
+      ]
+    }
+  }
+	}
+]

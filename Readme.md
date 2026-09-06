@@ -24,7 +24,7 @@ For now, make a backup of your storage folder before adding or removing any mods
 
 - Requires [Size of Life](https://steamcommunity.com/sharedfiles/filedetails/?id=3218820111)
 
-- ([StarExtensions](https://github.com/StarExtensions/StarExtensions) helps visuals)
+- ([StarExtensions](https://github.com/StarExtensions/StarExtensions) helps visuals, but the repo disappeared. Hmmmmm, what a pain.)
 
 - Highly Recommends [Stardust Core Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=2512589532) so you can edit your Techs on the fly! If you don't want admin mode on all the time, also add [Quickbar Unlocker](https://steamcommunity.com/sharedfiles/filedetails/?id=1089421344).
 
